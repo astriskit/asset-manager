@@ -1,6 +1,14 @@
 # Project: asset-manager
 
-UI to show various assets such as ETFs, MFs, etc. of an individual
+UI to show various assets such as ETFs and MFs.
+
+---
+
+### Notes
+
+- Data is mocked in `src/data.ts`.
+- Stack has typescript, react-js, redux, redux-toolkit, redux-saga, antd-ui;
+- Live at :
 
 ---
 
