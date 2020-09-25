@@ -5,7 +5,7 @@ import { data as mockData } from "./data";
 const setData = function* () {
   try {
     yield put(loading(true));
-    const data = yield delay(2000, mockData);
+    const data = yield delay(1000, mockData);
     yield put(setDataAction(data));
     yield put(loading(false));
   } catch (err) {

@@ -1,4 +1,4 @@
-type EmptyNumber = Number | "-";
+export type EmptyNumber = Number | "-";
 
 export interface DataRecord {
   Scrip: string;
@@ -12,7 +12,7 @@ export interface DataRecord {
   mf: Boolean;
 }
 
-export type Data = Array<DataRecord>;
+export type Data = Array<DataRecord> | [];
 
 export const data: Data = [
   {

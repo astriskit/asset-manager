@@ -1,2 +1,111 @@
-.App {
+@import "~antd/dist/antd.css";
+
+.App main {
+  text-align: center;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  background-color: white;
+  border-radius: 6px;
+  min-height: 78vh;
+  max-height: 78vh;
+}
+#view-data {
+  display: flex;
+  flex-wrap: row-reverse;
+}
+
+.asset-list {
+  max-height: 70vh;
+  overflow: auto;
+}
+
+#heading {
+  color: wheat;
+  font-size: 1.8vw;
+}
+#footer {
+  text-align: center;
+  color: rosybrown;
+  text-transform: uppercase;
+  font-family: monospace;
+  font-size: calc(1.8vw - 8px);
+}
+#message-error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#message-error > :first-child {
+  flex: 8;
+  width: 100%;
+}
+#message-error > :last-child {
+  flex: 1;
+}
+.det-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.double-progress {
+  display: flex;
+  justify-content: center;
+}
+.double-progress .ant-progress-inner {
+  border-radius: 0px;
+}
+.double-progress > :first-child {
+  transform: rotate(180deg);
+  position: relative;
+  top: 2px;
+}
+.double-progress > :last-child .ant-progress-bg,
+.double-progress > :first-child .ant-progress-bg {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.number {
+  font-weight: bolder;
+}
+.subtle {
+  color: rgb(104 104 104);
+}
+.bs-btn,
+.bs-btn:hover,
+.bs-btn:focus {
+  color: orange;
+  border-color: orange;
+}
+.bs-btn:hover,
+.bs-btn:focus {
+  background: rgb(244 244 244);
+}
+.bs-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (max-width: 700px) {
+  #heading {
+    font-size: 2.5vw;
+  }
+  #footer {
+    font-size: calc(2.5vw - 8px);
+  }
+  .bs-col {
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  #heading {
+    font-size: 3vw;
+  }
+  #footer {
+    font-size: calc(3vw - 8px);
+  }
 }
