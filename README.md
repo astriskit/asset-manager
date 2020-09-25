@@ -8,7 +8,7 @@ UI to show various assets such as ETFs and MFs.
 
 - Data is mocked in `src/data.ts`.
 - Stack has typescript, react-js, redux, redux-toolkit, redux-saga, antd-ui;
-- Live at :
+- Live at [here](https://astriskit.github.io/asset-manager)
 
 ---
 
