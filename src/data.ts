@@ -55,8 +55,8 @@ export const data: Data = [
     "Avg. Cost": 22.24,
     "Invested Amount": 17811.04,
     "% of Portfolio Value": 21.89,
-    "Unrealized P&L": 3441.34,
-    "% Return": 25.0,
+    "Unrealized P&L": -1470.64,
+    "% Return": -8.26,
     mf: true,
   },
   {
