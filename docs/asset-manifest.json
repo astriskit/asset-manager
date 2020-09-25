@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/asset-manager/static/css/main.1841c45a.chunk.css",
+    "main.js": "/asset-manager/static/js/main.9ff31833.chunk.js",
+    "main.js.map": "/asset-manager/static/js/main.9ff31833.chunk.js.map",
+    "runtime-main.js": "/asset-manager/static/js/runtime-main.89462d6c.js",
+    "runtime-main.js.map": "/asset-manager/static/js/runtime-main.89462d6c.js.map",
+    "static/css/2.cd846464.chunk.css": "/asset-manager/static/css/2.cd846464.chunk.css",
+    "static/js/2.bdd84fe5.chunk.js": "/asset-manager/static/js/2.bdd84fe5.chunk.js",
+    "static/js/2.bdd84fe5.chunk.js.map": "/asset-manager/static/js/2.bdd84fe5.chunk.js.map",
+    "index.html": "/asset-manager/index.html",
+    "precache-manifest.63e05e645887e49379d5524c9e09b31c.js": "/asset-manager/precache-manifest.63e05e645887e49379d5524c9e09b31c.js",
+    "service-worker.js": "/asset-manager/service-worker.js",
+    "static/css/2.cd846464.chunk.css.map": "/asset-manager/static/css/2.cd846464.chunk.css.map",
+    "static/css/main.1841c45a.chunk.css.map": "/asset-manager/static/css/main.1841c45a.chunk.css.map",
+    "static/js/2.bdd84fe5.chunk.js.LICENSE.txt": "/asset-manager/static/js/2.bdd84fe5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.89462d6c.js",
+    "static/css/2.cd846464.chunk.css",
+    "static/js/2.bdd84fe5.chunk.js",
+    "static/css/main.1841c45a.chunk.css",
+    "static/js/main.9ff31833.chunk.js"
+  ]
+}
